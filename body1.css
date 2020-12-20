@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #c7956d;
+    animation: body2 2s;
+    font-family: 'Zilla Slab', serif;
+}
+
+@keyframes body2 {
+    from {
+        background-color: rebeccapurple;
+    }
+
+    to {
+        background-color: red;
+    }
+}
